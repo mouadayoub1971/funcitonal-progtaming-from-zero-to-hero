@@ -3,7 +3,11 @@ class Coffee:
 
 class CreditCard:
     // Unit mean void
-    def Charge(price: Double): Unit
+    def charge(price: Double): Unit
         println("charging " + price)
 
-class 
+class Cafe:
+    def BuyCoffee(cc: CreditCard)
+        val cup = Coffe()
+        cc.charge(cup.price)
+        cup
